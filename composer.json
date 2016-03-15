@@ -1,0 +1,49 @@
+{
+  "name": "caseboxdev/rest-bundle",
+  "type": "symfony-bundle",
+  "description": "This bundle provides Casebox integration with with Symfony CMF and implements REST API services.",
+  "keywords": [
+    "casebox",
+    "symfony",
+    "rpc"
+  ],
+  "homepage": "https://casebox.org",
+  "license": "AGPL3.0",
+  "authors": [
+    {
+      "name": "Oleg Burlaca",
+      "email": "oleg@burlaca.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Vitalie Turcanu",
+      "email": "vitalie.turcanu@gmail.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Ghenadie Bulgac",
+      "email": "bulgac@gmail.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Vladimir Melnic",
+      "email": "win32hack@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^5.5|~7.0",
+    "symfony/symfony": "3.0.*",
+    "friendsofsymfony/rest-bundle": "^1.7",
+    "jms/serializer-bundle": "^1.1"
+  },
+  "require-dev": {
+    "caseboxdev/core-bundle": "*",
+    "caseboxdev/core-rpc": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Casebox\\RestBundle\\": "src/"
+    }
+  }
+}
