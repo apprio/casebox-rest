@@ -26,4 +26,4 @@ License
 
 This bundle is under the AGPL 3.0 license. See the complete license in the bundle:
 
-    Resources/meta/LICENSE
+    src/Resources/meta/LICENSE
