@@ -32,8 +32,8 @@
     }
   ],
   "require": {
-    "php": "^5.5|~7.0",
-    "symfony/symfony": "3.0.*",
+    "php": "^5.5|~7.3",
+    "symfony/symfony": "3.4.*",
     "friendsofsymfony/rest-bundle": "^1.7",
     "jms/serializer-bundle": "^1.1"
   },
